@@ -1,0 +1,206 @@
+
+
+
+
+
+
+
+
+
+/*----1400------*/
+
+
+@media screen and (max-width:1400px) {
+    
+    h1 {
+        text-align: center;
+        padding: 50px 0;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    
+    h2 {
+        width: auto;
+        align-items: center;
+        text-align: center;
+        padding: 50px 0;
+        margin: 0 auto;
+    }
+
+    /*--------Music-------*/
+
+    .main_music {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .music_content {
+        flex-direction: column;
+        text-align: right;
+    }
+
+    .music_butter {
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .music_playlist {
+        text-align: center;
+    }
+
+    .main_music_img {
+        width: 99.9%;
+    }
+
+    .img_music {
+        width: 90%;
+    }
+
+
+    /*---------Store-----------*/
+
+    .main_store {
+        height: 100%;
+    }
+
+    .text_store {
+        flex-direction: column;
+    }
+
+    .text_store .img_store {
+        align-items: end;
+    }
+
+    .link_old_downl {
+        padding-bottom: 50px;
+    }
+
+    .img_store {
+        width: 99.9%;
+        text-align: right;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .img_macbookpro {
+        width: 90%;
+    }
+    
+    
+    
+    /*----FOOTER------*/
+
+
+
+    .footer {
+        height: max-content;
+        flex-direction: column;
+        position: static;
+        
+    }
+
+    
+
+    .img_footer_logo {
+        width: 90%;
+    }
+
+
+
+}
+
+/*----1200------*/
+
+@media screen and (max-width:1200px) {
+
+    /*----HEADER------*/ 
+    
+    .header_up {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .nav .open .nav_header {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    
+    .nav_header {
+        display: none;
+        
+    }
+    .nav_button {
+        display: block;
+        text-align: right;
+        border: none;
+        width: 99%;
+        background-color: inherit ;
+    }
+
+    .img_nav_button {
+        width: 10%;
+        
+    }
+
+    .img_nav_button:hover {
+        opacity: 0.2;
+    }
+
+    /*----FOOTER------*/
+
+
+    .footer {
+        flex-direction: column;
+    }
+
+
+    .list {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .footer_down_info {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .footer_down {
+        display:inline-block ;
+    }
+
+    
+
+}
+
+
+
+
+
+/*----800------*/
+
+@media screen and (max-width:800px) {
+
+
+    /*----HEADER------*/
+
+
+    .header_medi {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer_down {
+        display: inline-block;
+        flex-direction: column;
+    }
+
+
+}
